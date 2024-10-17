@@ -1,0 +1,208 @@
+.profile-home-container-1{
+    min-height: 100vh;
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0% auto;
+}
+
+.profile-home-container-2{
+    max-width: 1100px;
+    width: calc(100% - 164px);
+    padding: 24px;
+    box-sizing: border-box;
+}
+.user-details-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.user-details{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap:5px;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+}
+
+.user-name-inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 0px;
+}
+
+
+.user-name p {
+    color: #7e7e7e;
+}
+.edit-profile-btn{
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 125px;
+}
+.edit-profile-btn:hover{
+    background-color: #f5f9fc;
+}
+.edit-profile-title{
+    padding: 20px 0px;
+    border-bottom: solid 1px #dbd9d9;
+}
+.edit-profile-title-2{
+    color: grey;
+    font-weight: 400;
+}
+.edit-profile-form {
+    padding: 20px;
+    border: solid 1px #dbd9d9;
+    border-radius: 5px;
+}
+.edit-profile-form label h3{
+    margin: 0%;
+    padding: 3px 0px;
+}
+.edit-profile-form label p{
+    margin: 0%;
+    padding: 3px 0px;
+}
+.edit-profile-form label input, .edit-profile-form label textarea{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 50%;
+}
+
+.user-submit-btn{
+    padding: 14px 10px;
+    background-color: #0a95ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.user-submit-btn:hover{
+    background-color: #0074cc;
+}
+
+.user-cancel-btn{
+    padding: 14px 10px;
+    color: #0a95ff;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.profile-button-data{
+    width: 35%;
+}
+
+.mob-profile-home-container-1{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0% auto;
+}
+
+.mob-profile-home-container-2{
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mob-user-details-container{
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.mob-user-details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.mob-profile-button-data{
+    width: fit-content;
+
+    position:absolute;
+    margin-right: 1%;
+}
+
+.mob-user-name{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap:5px;
+    justify-content: flex-start;
+}
+
+.mob-user-name-inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 0px;
+    width: 100%;
+}
+
+.mob-edit-profile-btn{
+    border-radius: 100px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.321);;
+}
+
+.mob-edit-profile-form label input, .mob-edit-profile-form label textarea{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 100%;
+}
